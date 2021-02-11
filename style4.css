@@ -137,6 +137,7 @@ footer h4 {
   padding-left: 35px;
   border-radius: 50%;
   box-shadow: 10px 8px 8px 5px rgba(19, 2, 16, 0.79);
+  font-size: large;
 }
 
 .button {
