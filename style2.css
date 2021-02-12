@@ -1,5 +1,5 @@
 body {
-  /* width: 100%; */
+  width: 100%;
   margin: 0;
   padding: 0;
   background: rgb(2, 0, 36);
@@ -13,7 +13,7 @@ body {
 
 h1 {
   height: 100px;
-  /* width: 100%; */
+  width: 100%;
   text-align: center;
   margin: 0;
   padding-top: 55px;
@@ -141,51 +141,6 @@ h1 {
     text-align: left;
   }
 }
-
-/* nav {
-  width: 100%;
-  height: auto;
-  position: relative;
-  text-align: center;
-  float: right;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(255, 0, 250, 1) 0%,
-    rgba(209, 120, 244, 1) 53%
-  );
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  float: right;
-  font-size: 30px;
-  text-align: center;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: red;
-  float: right;
-  display: block;
-  text-align: center;
-  margin-left: 120px;
-  margin-top: 15px;
-}
-
-nav ul li a:hover {
-  background-color: #38054d;
-  border: 5px solid #38054d;
-  border-radius: 15px;
-  color: white;
-} */
 
 .tel {
   padding: 10px;
@@ -521,48 +476,18 @@ nav ul li a:hover {
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
   body {
-    /* width: 100%; */
+    width: 100%;
     background-color: red;
   }
   h1 {
     text-align: center;
-    /* width: 100%; */
+    width: 100%;
 
     font-size: 3em;
     text-transform: uppercase;
     color: white;
     letter-spacing: 0.2em;
     font-family: serif;
-  }
-
-  nav {
-    /* width: 100%; */
-    position: relative;
-    text-align: center;
-    float: right;
-  }
-
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav ul li {
-    float: right;
-
-    text-align: center;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: black;
-    float: right;
-    display: block;
-    text-align: center;
-    margin-left: 120px;
-    margin-top: 15px;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 599px) {
@@ -576,12 +501,12 @@ nav ul li a:hover {
 }
 @media screen and (min-width: 600px) and (max-width: 1300px) {
   body {
-    /* width: 100%; */
+    width: 100%;
     background-color: white;
   }
   h1 {
     text-align: center;
-    /* width: 100%; */
+    width: 100%;
 
     font-size: 3em;
     text-transform: uppercase;
@@ -589,43 +514,7 @@ nav ul li a:hover {
     letter-spacing: 0.2em;
     font-family: serif;
   }
-  nav {
-    /* width: 100%; */
-    /* position: relative;
-    text-align: center;
-    float: right; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
 
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav ul li {
-    float: right;
-
-    text-align: center;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: black;
-    float: right;
-    display: block;
-    text-align: center;
-    margin-left: 120px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
   .icones {
     display: flex;
     flex-direction: column;
