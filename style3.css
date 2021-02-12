@@ -104,8 +104,17 @@ h1 {
 }
 
 h3 {
+  display: flex;
+  align-items: center;
+  text-align: justify;
   padding-left: 35px;
   padding-top: 15px;
+}
+
+p {
+  padding-left: 80%;
+  font-weight: 700;
+  font-size: larger;
 }
 
 .plats {
@@ -117,6 +126,15 @@ h3 {
   background-color: rgb(248, 142, 147);
   border-radius: 15px;
   line-height: 1.2rem;
+}
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 10px;
 }
 
 .desserts {
