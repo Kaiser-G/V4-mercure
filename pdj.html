@@ -11,16 +11,32 @@
       <a id="haut"></a>
       <h1>PETIT DEJEUNER</h1>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="informations.html">Informations utiles</a></li>
-          <li><a href="roomservice.html">Room service</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <br />
-      <br />
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="active">Accueil</a>
+        <a href="./informations.html">Informations</a>
+        <a href="./pdj.html">Petit déjeuner</a>
+        <a href="./roomservice.html">Room service</a>
+        <a href="./contact.html">Contact</a>
+
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;
+        </a>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
 
       <p>
         Nos petit déjeuner sont servi sur plateau dans le restect des mesures
@@ -42,9 +58,9 @@
         <li>Des céréales</li>
         <li>Un yaourt</li>
       </ul>
+      <h3>Tarif de 12€ par personne</h3>
     </section>
     <footer>
-      <h3>Tarif de 12€ par personne</h3>
       <h4>
         Vous devez obligatoirement remplir la fiche en réception.<br />
         En cas d'oubli nous ne pouvons vous garantir un petit déjeuner.
