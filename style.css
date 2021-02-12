@@ -24,56 +24,102 @@ body {
   font-size: 20px;
 }
 
-nav {
+.topnav {
   overflow: hidden;
-  width: 100%;
-  height: 100px;
-  position: relative;
-  text-align: center;
-  float: right;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(255, 0, 250, 1) 0%,
-    rgba(209, 120, 244, 1) 53%
+    rgba(2, 0, 36, 1) 9%,
+    rgba(209, 120, 244, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
   );
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  float: right;
-  font-size: 30px;
-  text-align: center;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: red;
-  float: right;
+.topnav a {
+  float: left;
   display: block;
+  color: #f2f2f2;
   text-align: center;
-  margin-left: 120px;
-  margin-top: 15px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-nav ul li a:hover {
-  background-color: #38054d;
-  border: 5px solid #38054d;
-  border-radius: 15px;
+.active {
   color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 9%,
+    rgba(209, 120, 244, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 9%,
+    rgba(209, 120, 244, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.icones {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 h2 {
   margin: 80px 80px;
   font-size: 40px;
   text-align: center;
+}
+
+/* !!!!!!!!!!!!!!!!!   RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .icones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 599px) {
+  .icones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 /* ici commence le responsive */
