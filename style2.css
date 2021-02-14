@@ -439,14 +439,228 @@ h1 {
     display: block;
     text-align: left;
   }
+
+  h1 {
+    display: none;
+  }
+
   .icones {
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    margin-left: 1%;
-    float: none;
   }
+
+  .tel {
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 2em;
+    width: 75%;
+    height: 200px;
+  }
+
+  .ptel {
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 0px 20px 15px 20px;
+  }
+
+  .reception {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 390px;
+  }
+
+  .reception p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 20px;
+  }
+
+  .pdj {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 690px;
+  }
+
+  .pdj p {
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .resto {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 990px;
+  }
+
+  .presto {
+    font-size: x-large;
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+
+  .bar {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 1290px;
+  }
+
+  .sport {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 1590px;
+  }
+
+  .piscine {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 1890px;
+  }
+
+  .fumer {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 2190px;
+  }
+
+  .fumer p {
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-left: 95px;
+    color: red;
+  }
+
+  .mini {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 2490px;
+  }
+
+  .wifi {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 2790px;
+  }
+
+  .wifi img {
+    display: none;
+    float: left;
+    padding-top: 45px;
+    padding-left: 5px;
+  }
+
+  .wifi p {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 5px;
+  }
+
+  .coffre {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 3090px;
+  }
+  .coffre img {
+    display: none;
+  }
+
+  .coffre p {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 5px;
+  }
+
+  .reveil {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 3390px;
+  }
+
+  .reveil img {
+    display: none;
+  }
+
+  .reveil p {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 5px;
+  }
+
+  .parking {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 3690px;
+  }
+  .parking img {
+    width: 100px;
+    float: left;
+    padding-top: 35px;
+    padding-left: 5px;
+  }
+
+  .nuxe {
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top: 3990px;
+  }
+
+  .nuxe img {
+    width: 100px;
+    float: left;
+    padding-top: 35px;
+    padding-left: 5px;
+  }
+
+  .nuxe p {
+    font-size: x-large;
+    padding-top: 15px;
+    padding-left: 115px;
+  }
+
   .button {
     display: none;
   }
@@ -463,21 +677,4 @@ h1 {
 } */
 
 @media screen and (min-width: 601px) and (max-width: 1300px) {
-  h1 {
-    text-align: center;
-    width: 100%;
-
-    font-size: 3em;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 0.2em;
-    font-family: serif;
-  }
-
-  .icones {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
 }
