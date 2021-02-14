@@ -227,6 +227,24 @@ h5 {
     flex-direction: column;
     flex-wrap: wrap;
   }
+  .plats {
+    margin-left: auto;
+  }
+  .plats h3 {
+    padding-left: 0px;
+  }
+  .desserts {
+    margin-left: auto;
+  }
+  .desserts h3 {
+    padding-left: 0px;
+  }
+  .boissons {
+    margin-left: auto;
+  }
+  .button {
+    display: none;
+  }
 }
 @media screen and (min-width: 401px) and (max-width: 599px) {
   .icones {

@@ -91,7 +91,6 @@ header p {
 section {
   position: relative;
   left: 400px;
-
   margin-top: 100px;
   width: 500px;
   text-align: center;
@@ -193,15 +192,38 @@ footer h4 {
   }
 
   section {
+    left: 0%;
+    width: auto;
+    padding-left: 0;
+    padding-right: 2px;
+  }
+
+  section li {
+    padding-left: 0px;
+  }
+  footer h4 {
     left: 25px;
     width: 250px;
+    margin-left: 0px;
+  }
+  .button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  header h1 {
+    letter-spacing: 0;
+    padding-top: 1px;
+  }
+
+  section {
+    left: 5px;
+    width: auto;
   }
   footer h4 {
     left: 25px;
     width: 250px;
     margin-left: 0;
-  }
-  .button {
-    display: none;
   }
 }
